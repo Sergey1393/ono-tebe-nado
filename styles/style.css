@@ -4,10 +4,11 @@ body {
     background-color:rgb(255, 255, 255);
     margin: auto;
     box-sizing: border-box;
+    font-family: "Raleway", "Arial", sans-serif;
 }
 
 header {
-    padding: 91px 49px 96px 51px;
+    padding: 95px 49px 96px 51px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
@@ -52,13 +53,13 @@ header {
   
 address {
     justify-self: end;
-    padding-right: 34px;
-    line-height: 24px; 
+    padding-right: 36px;
+    line-height: 24px;
 }
 
 .cover {
     padding: 165px 50px 50px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
     color: #ffffff;
@@ -260,8 +261,7 @@ address {
     line-height: 24px;
     color: #000000;
     font-style: normal;
-    line-height: normal;
-    padding-right: 35px;
+    padding-right: 40px;
 }
   
 .about__text_block {
